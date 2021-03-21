@@ -7,8 +7,7 @@ const app = express();
 
 const cors = require('cors');
 
-
-const port = process.env.port || 3001
+const port = process.env.PORT || 3001
 
 // conectar a la base de datos
 
@@ -42,8 +41,5 @@ app.use('/api/tareas', require('./routes/tareas'));
 //const port = process.env.port || 4000;
 
 app.listen(port,'0.0.0.0',()=>{
-
     console.log(`El servidor esta funcionando en el puerto ${port}`);
-
-
 });
