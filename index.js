@@ -8,7 +8,7 @@ const app = express();
 const cors = require('cors');
 
 
-const port = process.env.PORT || 3001
+const port = process.env.port || 3001
 
 // conectar a la base de datos
 
