@@ -4,7 +4,7 @@
   "description": "mearntask servidor",
   "main": "index.js",
   "scripts": {
-    "start": " node .",
+    "start": "node ./index",
     "dev": " nodemon ."
   },
   "author": "wilfredo frias",
